@@ -24,7 +24,6 @@ export default function App() {
       <View style={styles.overlay}>
         <Text style={styles.mainText}>Voting</Text>
         <Text style={styles.subText}>SMIU</Text>
-        {/* <Text style={styles.tagline}></Text> */}
       </View>
       <View style={styles.buttons}>
         <TouchableOpacity

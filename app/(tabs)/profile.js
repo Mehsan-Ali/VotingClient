@@ -1,7 +1,6 @@
 import React from "react";
 import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
-
 import { useRouter } from "expo-router";
 import { logoutAction } from "../(redux)/authSlice";
 import ProtectedRoute from "../../components/ProtectedRoute";
